@@ -3,13 +3,8 @@ using System.Collections.Generic;
 
 namespace SimCorp.IMS.SMSReceiverWFA {
     public class Format {
-         /*ublic static string FormatWithTime(string message) {
-              return $"[{DateTime.Now}] {message}";
-          }*/
-
+   
         public delegate string FormatDelegate(string text);
-
-      //public readonly FormatDelegate Formatter = new FormatDelegate(FormatWithTime);
 
         public string OnSMSReceived(string message, FormatDelegate del) {
             return del(message);

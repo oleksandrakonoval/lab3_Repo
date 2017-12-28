@@ -16,7 +16,7 @@ namespace SimCorp.IMS.SMSReceiverWFA {
         public SMSReceiverForm() {
             InitializeComponent();
             comboBox1.SelectedIndex = 0;
-
+            
             MyMobile = new SimCorpMobile();
             output = new WFAOutputRichTextBox(richTextBox1);
             MyMobile.SMSProvider = new SMSProvider();                       
@@ -31,8 +31,8 @@ namespace SimCorp.IMS.SMSReceiverWFA {
         }
 
         private void timer_Tick(object sender, EventArgs e) {
-            string text = "New SMS received";
-            
+
+            string text = "New SMS received";            
             FormatDelegate currentFormat;
             currentFormat = Format.FormatType[comboBox1.SelectedIndex];
 
