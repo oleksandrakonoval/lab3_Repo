@@ -1,17 +1,15 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fake", "F:\OLKL\C# preparation\C# Preparation Labs\lab2_Interfaces\Fake\Fake.csproj", "{845AF75B-92E9-4428-9D1F-C7C426DF74C8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobilePhoneWFA", "MobilePhomeWFA\MobilePhoneWFA.csproj", "{03A2DF13-02E7-4987-89E2-74C4D1859D4B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobilePhoneWFA", "F:\OLKL\C# preparation\C# Preparation Labs\lab2_Interfaces\MobilePhomeWFA\MobilePhoneWFA.csproj", "{03A2DF13-02E7-4987-89E2-74C4D1859D4B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobilePhone", "MobilePhone\MobilePhone.csproj", "{58F2EBCE-E995-47E6-B2D2-AC5D77D294BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobilePhone", "F:\OLKL\C# preparation\C# Preparation Labs\lab2_Interfaces\MobilePhone\MobilePhone.csproj", "{58F2EBCE-E995-47E6-B2D2-AC5D77D294BF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobilePhoneLibrary", "MobilePhoneLibrary\MobilePhoneLibrary.csproj", "{B2B23137-5DDE-47E3-B623-8C526664415D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobilePhoneLibrary", "F:\OLKL\C# preparation\C# Preparation Labs\lab2_Interfaces\MobilePhoneLibrary\MobilePhoneLibrary.csproj", "{B2B23137-5DDE-47E3-B623-8C526664415D}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestComponents", "F:\OLKL\C# preparation\C# Preparation Labs\lab2_Interfaces\Test\TestComponents.csproj", "{6C91671E-9F51-4291-B30A-5AC75B175D1E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestComponents", "Test\TestComponents.csproj", "{6C91671E-9F51-4291-B30A-5AC75B175D1E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMSReceiverWFA", "SMSReceiverWFA\SMSReceiverWFA.csproj", "{4890EEAF-30A5-4F7A-AD28-9A0AE63E1FD6}"
 EndProject
